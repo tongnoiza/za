@@ -1,9 +1,9 @@
 const express = require('express')
 const url = require('url')
+var f = require('fs')
 const app = express()
 const port = process.env.PORT || 443
-
-console.log('port '+port)
+var t = f.readFileSync('test.ejs','utf-8')
 var j = [
     {    name:'sontaya',
 age:19,
@@ -27,9 +27,13 @@ app.get('/test',(req,res)=>{
     }else{
         res.end('no args')
     }
-
-
+}).get('/log',(req,res)=>{
+res.send(t)
 })
-app.listen(port,()=>{
 
+
+
+
+app.listen(port,()=>{
+console.log('server running at Heroku port '+port)
 })
