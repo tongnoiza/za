@@ -11,10 +11,12 @@ var j = {
         nickname:"tongnoi",
         university:"king's monkut univerity of technology nort bankok" 
 }
-  
-app.get('/test',(req,res)=>{
-const {query} = req
-  console.log(query.id)
-res.send(j)
 
-}).listen(port)
+app.get('/test',(req,res)=>{
+    res.status =200;
+res.send(j)
+res.end()
+})
+app.connect(port,()=>{
+
+})
