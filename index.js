@@ -11,7 +11,7 @@ var j = {
         university:"king's monkut univerity of technology nort bankok" 
 }
   
-app.get('/',(req,res)=>{
+app.get('/test',(req,res)=>{
 const {query} = req
   console.log(query.id)
 res.send(j)
