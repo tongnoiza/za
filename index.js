@@ -1,6 +1,7 @@
 const express = require('express')
 const url = require('url')
 const app = express()
+const port = process.env.port || 8080
 
 var j = { 
         name:'sontaya',
@@ -16,4 +17,4 @@ const {query} = req
   console.log(query.id)
 res.send(j)
 
-}).listen(443)
+}).listen(port)
