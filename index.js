@@ -18,6 +18,6 @@ app.get('/test',(req,res)=>{
 res.json(j)
 res.end()
 })
-app.connect(port,()=>{
+app.listen(port,()=>{
 
 })
