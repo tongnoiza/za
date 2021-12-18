@@ -15,6 +15,10 @@ university:"king's monkut univerity of technology nort bankok"
     name:'tong',
     lastname:"bootnamruk",
     email:"son@email.dkmfkdfm"
+},{
+tongza:"kak",
+    name:"เรียนไม่เก่ง",
+    
 }
 ]
     
