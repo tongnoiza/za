@@ -21,9 +21,14 @@ university:"king's monkut univerity of technology nort bankok"
 
 
 app.get('/test',(req,res)=>{
-    res.status =200;
-res.json(j)
-res.end()
+   var {query }= req
+    if(query.id){
+        res.json(j[query.id])
+    }else{
+        res.end('no args')
+    }
+
+
 })
 app.listen(port,()=>{
 
