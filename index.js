@@ -1,8 +1,9 @@
 const express = require('express')
 const url = require('url')
 const app = express()
-const port = process.env.port || 8080
+const port = process.env.PORT || 443
 
+console.log('port '+port)
 var j = { 
         name:'sontaya',
         age:19,
@@ -14,7 +15,7 @@ var j = {
 
 app.get('/test',(req,res)=>{
     res.status =200;
-res.send(j)
+res.json(j)
 res.end()
 })
 app.connect(port,()=>{
