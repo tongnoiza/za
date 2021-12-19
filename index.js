@@ -35,9 +35,11 @@ var y = [
     {
         "name": "C.ฟกด",
         "team": "กากๆ"
+    },{
+        File:t
     }
 ]
-   console.log(j[0] || j[1])
+   console.log(j[0] && j[1])
 
 app.get('/test', (req, res) => {
     var { query } = req
