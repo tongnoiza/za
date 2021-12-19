@@ -1,0 +1,18 @@
+var y=[
+   {
+        "name": "messi",
+        "team": "barcelona"
+    },
+    {
+        "name": "C.ronaldo",
+        "team": "Manu"
+    }, 
+     {
+        "name": "Alexander trant Arnold",
+        "team": "Liverpool"
+    }
+
+
+
+
+]
