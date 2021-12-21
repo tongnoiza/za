@@ -36,7 +36,8 @@ var y = [
         "name": "C.ฟกด",
         "team": "กากๆ"
     },{
-        File:t
+        File:t,
+    
     }
 ]
    console.log(j[0] && j[1])
@@ -49,7 +50,7 @@ app.get('/test', (req, res) => {
         res.end('no args')
     }
 }).get('/log', (req, res) => {
-    res.send(t)
+    res.end(t)
 })
 
 
