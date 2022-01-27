@@ -22,7 +22,6 @@ var j =
     
 
 app.get('/', (req, res) => {
-    res.contentType('.html')
         res.json(j)
 })
 
