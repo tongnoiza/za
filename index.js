@@ -23,7 +23,6 @@ var j =
         C:"College Industrial Technology",
         Skill: "basic Java c html php javascript ",
         OS: "Linux ,Windows",
-        "Basic skill":"word powerpoint",
     }
 
     app.get("/",(req,res)=>{
