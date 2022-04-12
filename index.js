@@ -49,8 +49,7 @@ var j = [
         C:"College Industrial Technology",
         Skill: "basic Java c html php javascript ",
         OS: "Linux ,Windows",
-    },
-
+    }
 ]
 
     app.get("/",(req,res)=>{
