@@ -52,7 +52,7 @@ var j = [
     }
 ]
 
-    app.get("/",(req,res)=>{
+    app.get("/:id",(req,res)=>{
         let id = req.params.id
         res.send(j[id]);
     })
