@@ -53,7 +53,8 @@ var j = [
 ]
 
     app.get("/",(req,res)=>{
-        res.send(j);
+        let id = req.params.id
+        res.send(j[id]);
     })
     
 app.listen(port, () => {
