@@ -1,8 +1,7 @@
 {
   "name": "testdeploy",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "functions/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
@@ -10,8 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
+    "firebase-admin": "^9.4.1",
+    "firebase-functions": "^3.12.0",
+    "moment": "^2.29.4",
     "mongo": "^0.1.0",
     "mongodb": "^4.2.2",
     "mongoose": "^6.1.2",
@@ -19,6 +23,15 @@
     "url": "^0.11.0"
   },
   "engines": {
-    "node": "17.2.0"
-  }
+    "node": "14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongnoiza/za.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tongnoiza/za/issues"
+  },
+  "homepage": "https://github.com/tongnoiza/za#readme",
+  "description": ""
 }
